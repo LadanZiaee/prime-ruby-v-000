@@ -1,6 +1,5 @@
 def prime?(num)
-  prime = [] 
-  prime << num
+  prime = *num
   prime.each do |isprime|
     if isprime < 0 || isprime == 0 || isprime == 1
       false
