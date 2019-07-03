@@ -5,6 +5,6 @@ def prime?(num)
       false
     elsif isprime % 1 == 0 && isprime % isprime == 0 
       true 
-      elsif
     end
+  end
 end
