@@ -1,6 +1,6 @@
 def prime?(num)
   prime = *num
-  prime.each do |isprime|
+  prime.collect do |isprime|
     if isprime % !isprime == 0 && isprime % !1 == 0 
       false
     else isprime % 1 == 0 && isprime % isprime == 0 
